@@ -1,0 +1,171 @@
+# csa.map
+keymaps 0-6,8-9,12
+alt_is_meta
+include "qwerty-layout"
+include "linux-with-alt-and-altgr"
+include "compose.latin1"
+strings as usual
+
+# ------------------------------------------------------------------------------
+# 1st Row       plain             shift           altgr           shift+altgr
+# ------------------------------------------------------------------------------
+
+keycode 1   =   Escape
+
+keycode 41  =   slash             backslash       bar             space
+keycode 2   =   one               exclam          exclamdown      U+2248
+keycode 3   =   two               at              at              U+0131
+keycode 4   =   three             numbersign      sterling        circumflex
+keycode 5   =   four              dollar          currency        U+02DC
+keycode 6   =   five              percent         U+221E
+keycode 7   =   six               question        space           U+2020
+keycode 8   =   seven             ampersand       braceleft       U+2021
+keycode 9   =   eight             asterisk        braceright      U+2022
+keycode 10  =   nine              parenleft       bracketleft     U+00B1
+keycode 11  =   zero              parenright      bracketright    U+2014
+keycode 12  =   minus             underscore      bar             questiondown
+keycode 13  =   equal             plus            notsign         U+2013
+keycode 14  =   Delete
+
+# 3
+control keycode 4 = Escape
+
+# ------------------------------------------------------------------------------
+# 2nd Row       plain             shift           altgr           shift+altgr
+# ------------------------------------------------------------------------------
+
+keycode 15  =   Tab
+keycode 26  =   dead_circumflex   dead_diaeresis  dead_grave      U+201E
+keycode 27  =   ccedilla          Ccedilla        tilde           dead_tilde
+keycode 28  =   Return
+
+# Q
+altgr         keycode 16 = oe
+shift altgr   keycode 16 = OE
+
+# W
+altgr         keycode 17 = U+2211
+shift altgr   keycode 17 = U+2030
+
+# E
+altgr         keycode 18 = U+2202
+shift altgr   keycode 18 = macron
+
+# R
+altgr         keycode 19 = pilcrow
+shift altgr   keycode 19 = registered
+
+# T
+altgr         keycode 20 = U+2122
+shift altgr   keycode 20 = breve
+
+# Y
+altgr         keycode 21 = yen
+shift altgr   keycode 21 = doubleacute
+
+# U
+altgr         keycode 22 = space
+shift altgr   keycode 22 = ogonek
+
+# I
+altgr         keycode 23 = pi
+shift altgr   keycode 23 = U+220F
+
+# O
+altgr         keycode 24 = U+00F8
+shift altgr   keycode 24 = U+00D8
+
+# P
+altgr         keycode 25 = U+201C
+shift altgr   keycode 25 = U+201D
+
+# ------------------------------------------------------------------------------
+# 3rd Row       plain             shift           altgr           shift+altgr
+# ------------------------------------------------------------------------------
+
+keycode 58  =   Caps_Lock
+keycode 39  =   semicolon         colon           degree          dead_acute
+keycode 40  =   egrave            Egrave          backslash       U+2019
+keycode 43  =   agrave            Agrave          grave           dead_grave
+
+# A
+altgr         keycode 30 = ae
+shift altgr   keycode 30 = AE
+
+# S
+altgr         keycode 31 = ssharp
+shift altgr   keycode 31 = section
+
+# D
+altgr         keycode 32 = ordfeminine
+shift altgr   keycode 32 = caron
+
+# F
+altgr         keycode 33 = U+0192
+
+# G
+altgr         keycode 34 = copyright
+
+# H
+altgr         keycode 35 = abovedot
+shift altgr   keycode 35 = U+00B7
+
+# I
+altgr         keycode 36 = U+2206
+shift altgr   keycode 36 = U+201A
+
+# J
+altgr         keycode 37 = U+02DA
+shift altgr   keycode 37 = U+2044
+
+# K
+altgr         keycode 38 = nobreakspace
+shift altgr   keycode 38 = U+2026
+
+# ------------------------------------------------------------------------------
+# 4th Row       plain             shift           altgr           shift+altgr
+# ------------------------------------------------------------------------------
+
+keycode 42  =   Shift
+keycode 86  =   ugrave            Ugrave          backslash       Omega
+keycode 51  =   comma             apostrophe      less            multiply
+keycode 52  =   period            quotedbl        greater         division
+keycode 53  =   eacute            Eacute          slash           U+2260
+keycode 54  =   Shift
+
+# Z
+altgr         keycode 44 = guillemotleft
+shift altgr   keycode 44 = U+2039
+
+# X
+altgr         keycode 45 = guillemotright
+shift altgr   keycode 45 = U+203A
+
+# C
+altgr         keycode 46 = cent
+shift altgr   keycode 46 = U+2020
+
+# V
+altgr         keycode 47 = U+221A
+shift altgr   keycode 47 = U+24CA
+
+# B
+altgr         keycode 48 = U+221B
+shift altgr   keycode 48 = U+2264
+
+# N
+altgr         keycode 49 = nobreakspace
+shift altgr   keycode 49 = U+2265
+
+# M
+altgr         keycode 50 = U+00B5
+shift altgr   keycode 50 = U+00BA
+
+# ------------------------------------------------------------------------------
+# 5th Row       plain             shift           altgr           shift+altgr
+# ------------------------------------------------------------------------------
+
+keycode 29  =   Control
+keycode 56  =   Alt
+keycode 57  =   space
+keycode 97  =   Control
